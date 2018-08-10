@@ -6,11 +6,15 @@
   "scripts": {
     "dev": "node index.js",
     "pa11y": "pa11y http://localhost:3000/index.html",
-    "pa11y-custom": "pa11y --config ./examples/pa11y/custom-config.json http://localhost:3000/index.html "
+    "pa11y-custom": "pa11y --config ./examples/pa11y/custom-config.json http://localhost:3000/index.html ",
+    "pa11y-js": "node examples/pa11y/pa11y-javascript.js"
   },
   "author": "Rannveig A. Skjerve",
   "license": "ISC",
   "devDependencies": {
     "pa11y": "^5.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
