@@ -1,7 +1,5 @@
 # a11y testing with pa11y
-More in  at https://github.com/pa11y/pa11y
 Requirements : Node 8
-
 
 ## Setting up
  ```
