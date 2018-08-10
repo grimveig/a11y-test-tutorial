@@ -13,11 +13,18 @@ Requirements : Node 8
     "pa11y": "pa11y [http://url/to/test/page]"
   }
  ```
-## 1. The command line tool
-Running a basic accessibility test 
+## 1. A basic run
+
  ```
  npm run pa11y
   ```
+<ul>
+<li>0: No accessbility issues found</li>
+<li>1: Test aborted due to technical errors </li>
+<li>2: Accessibility issues found</li>
+</ul>  
+  
+  
 ### Configurations how-to
 You can either add options directly to the script in package.json
  ```
@@ -36,5 +43,7 @@ By default it will look for a pa11y.json file in the current directory. You can 
 ```
 "pa11y": "pa11y http://url/to/test/page --config path/to/file.json"
 ```
+
+<em>For more config options see [configurations.md](configurations.md)
 
 
