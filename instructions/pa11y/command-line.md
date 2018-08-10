@@ -47,7 +47,7 @@ pa11y --config ./path/to/custom-config.json http://path/to/page
 <em>For more config options see [configurations.md](configurations.md)
 
 
-##Troubleshooting
+## Troubleshooting
 Error: net::ERR_CONNECTION_REFUSED
 >Is your server running?
 
