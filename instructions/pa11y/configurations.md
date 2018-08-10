@@ -64,12 +64,12 @@ to the end of your script in package.js<br>
 
 or directly in terminal: ```npm run pa11y > report.txt```
 
-### Sensitivity
+## Sensitivity
 
 ``` "threshold": 5 ```<br>
 How many issues that can be detected before the test fails. Default is 0
 
-### Levels
+## Levels
 <em>HTML Codesniffer test the page on three issue levels:</em>
 ```error```,```warning``` and ```notice```
 <br><em>By default pa11y runs error rules only</em>
