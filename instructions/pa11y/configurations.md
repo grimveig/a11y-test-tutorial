@@ -47,7 +47,7 @@ parameter: Array of strings wilt rule-ids.<br>
 ## Output
 <em>pa11y's default options is "human-readable" in terminal, but other options are available.</em>
 
-#### Format
+### Format
 ```reporter: 'json'``` <br>
 Set output format.<br>
 Embedded options: ````json````,```cli```, ```csv```<br>
@@ -69,7 +69,7 @@ or directly in terminal: ```npm run pa11y > report.txt```
 ``` "threshold": 5 ```<br>
 How many issues that can be detected before the test fails. Default is 0
 
-#### Levels
+### Levels
 <em>HTML Codesniffer test the page on three issue levels:</em>
 ```error```,```warning``` and ```notice```
 <br><em>By default pa11y runs error rules only</em>
