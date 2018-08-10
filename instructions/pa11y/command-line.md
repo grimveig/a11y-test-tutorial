@@ -67,8 +67,7 @@ Some pages requires a user to be logged in order to access the content.
     </li>
     <li>If there is a cookie in the header containing a session id, copy the key and 
     coockie value</li>
-    <li>Add this line to your config file:</li>
-    
+    <li>Add this line to your config file:</li>   
 </ol>
 
 ```

@@ -4,7 +4,7 @@ pa11y. For more advanced options see pa11y's [documnetation on github](https://g
 For an example config-file see [custom-config.json](../../examples/pa11y/custom-config.json) 
 
 
-##Page scope
+## Page scope
 
 ``` hideElements: 'img, #issue' ```<br>
 Exclude elements from test.<br>
@@ -14,7 +14,7 @@ parameter: css-selectors in comma separated string
 Testing subsections of page; starts test on element with id<br>
 parameter: css-selector in string
 
-##Rule scope
+## Rule scope
 A list of all rule-ids can be found in [rules/htmlcs.md](../../rules/htmlcs.md) <br>
 Details about the rules are available on [pa11y's github wiki](https://github.com/pa11y/pa11y/wiki/HTML-CodeSniffer-Rules).
 More thorough descriptions on [HTML_CodeSniffer's github](http://squizlabs.github.io/HTML_CodeSniffer/Standards/WCAG2/)
@@ -44,10 +44,10 @@ of WCAG level AA (assuming that the standard is set to default)<br>
 parameter: Array of strings wilt rule-ids.<br> 
 <em>rule-id format:[Principle].[Guidline].[rule-id(s)] </em>
 
-##Output
+## Output
 <em>pa11y's default options is "human-readable" in terminal, but other options are available.</em>
 
-####Format
+#### Format
 ```reporter: 'json'``` <br>
 Set output format.<br>
 Embedded options: ````json````,```cli```, ```csv```<br>
@@ -64,7 +64,7 @@ to the end of your script in package.js<br>
 
 or directly in terminal: ```npm run pa11y > report.txt```
 
-###Sensitivity
+### Sensitivity
 
 ``` "threshold": 5 ```<br>
 How many issues that can be detected before the test fails. Default is 0
