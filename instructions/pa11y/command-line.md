@@ -59,7 +59,7 @@ No? Fix the url
 
 >Do you need to be logged in?
 
-Some pages requires a user to be logged in in order to access the content.
+Some pages requires a user to be logged in order to access the content.
 <ol>
     <li>Open a browser with dev tools</li>
     <li>Go to the url you want to test</li>

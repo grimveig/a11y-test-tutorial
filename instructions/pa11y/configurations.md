@@ -1,6 +1,8 @@
 # Pa11y configurations
 This page contains a limited selection of configurations for a basic run with
-pa11y. For more advanced options see pa11y's  [documnetation on github](https://github.com/pa11y/pa11y#configuration)
+pa11y. For more advanced options see pa11y's [documnetation on github](https://github.com/pa11y/pa11y#configuration)<br>
+For an example config-file see [custom-config.json](../../examples/pa11y/custom-config.json) 
+
 
 ##Page scope
 
@@ -67,4 +69,20 @@ or directly in terminal: ```npm run pa11y > report.txt```
 ``` "threshold": 5 ```<br>
 How many issues that can be detected before the test fails. Default is 0
 
-#### Error levels 
+#### Levels
+<em>HTML Codesniffer test the page on three issue levels:</em>
+```error```,```warning``` and ```notice```
+<br><em>By default pa11y runs error rules only</em>
+
+```includeWarnings: true```<br>
+Include warnings in test<br>
+parameter: boolean
+
+```includeNotices: true ```<br>
+Include notices in test<br>
+parameter: boolean
+
+```level: warning ```<br>
+Which issue-level that should fail the test, default is error<br>
+parameter: ```error```,```warning``` or ```notice```
+
