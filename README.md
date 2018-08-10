@@ -5,7 +5,14 @@ automated accessibility testing with [Pa11y](https://github.com/pa11y/) and [aXe
 
 ## Where to start?
 In the [instructions](instructions) folder you will find walk-throughs on setting up,
-runnig and customizing automated tests with pa11y and aXe(to-come)
+runnig and customizing automated tests.
+
+### Pa11y
+Instruction in [commandline.md](instructions/pa11y/command-line.md)
+### aXe 
+<em>comming soon</em>
+
+
 
 ## Well, this was basic..
 Yes! It is. If you want to run more advanced tests check out Pa11y and aXe's 
