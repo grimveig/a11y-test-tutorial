@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
-    "pa11y": "pa11y http://localhost:3000/index.html --threshold 10"
+    "pa11y": "pa11y http://localhost:3000/index.html",
+    "pa11y-custom": "pa11y --config ./examples/pa11y/custom-config.json http://localhost:3000/index.html "
   },
   "author": "Rannveig A. Skjerve",
   "license": "ISC",

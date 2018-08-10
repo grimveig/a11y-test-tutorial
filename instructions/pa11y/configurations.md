@@ -21,7 +21,7 @@ More thorough descriptions on [HTML_CodeSniffer's github](http://squizlabs.githu
 ````standard: 'wcag2aaa'````<br>
 Standard the page should be tested against. Defaults to wcag2aa
 .<br>
-tags:```wcag2a```,```wcag2aa```,```wcag2aaa```,```section508```
+tags:```wcag2A```,```wcag2AA```,```wcag2AAA```,```section508```
 
 
 ```
@@ -60,4 +60,11 @@ to the end of your script in package.js<br>
 "pa11y": "pa11y http://url/to/test/page --config path/to/file.json > path/to/destination/filename.[extension]"
 ```
 
+or directly in terminal: ```npm run pa11y > report.txt```
 
+###Sensitivity
+
+``` "threshold": 5 ```<br>
+How many issues that can be detected before the test fails. Default is 0
+
+#### Error levels 

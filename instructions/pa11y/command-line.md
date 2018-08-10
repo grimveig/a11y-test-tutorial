@@ -19,9 +19,9 @@ Requirements : Node 8
  npm run pa11y
   ```
 <ul>
-<li>0: No accessbility issues found</li>
+<li>0: Test passed</li>
 <li>1: Test aborted due to technical errors </li>
-<li>2: Accessibility issues found</li>
+<li>2: Test failed</li>
 </ul>  
   
   
@@ -41,7 +41,7 @@ You can either add options directly to the script in package.json
 By default it will look for a pa11y.json file in the current directory. You can change this with the  ```--config  ``` flag in package.js:
 
 ```
-"pa11y": "pa11y http://url/to/test/page --config path/to/file.json"
+pa11y --config ./path/to/custom-config.json http://path/to/page 
 ```
 
 <em>For more config options see [configurations.md](configurations.md)

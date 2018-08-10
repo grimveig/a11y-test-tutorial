@@ -1,6 +1,7 @@
-A
-            standard: 'WCAG2AAA',
+#A
+```            standard: 'WCAG2A'```
 
+```
                'Principle1.Guideline1_1.1_1_1',
                'Principle1.Guideline1_2.1_2_1',
                'Principle1.Guideline1_2.1_2_2',
@@ -27,11 +28,12 @@ A
                'Principle3.Guideline3_3.3_3_2',
                'Principle4.Guideline4_1.4_1_1',
                'Principle4.Guideline4_1.4_1_2'
+```
 
 
 
-
-AA
+#AA
+````standard: wcag2AA````
 
                'Principle1.Guideline1_1.1_1_1',
                'Principle1.Guideline1_2.1_2_1',
@@ -75,12 +77,11 @@ AA
                'Principle4.Guideline4_1.4_1_2'
             ]
 
+#AAA:
 
+```standard: 'WCAG2AAA'```
 
-
-
-AAA:
-
+```
         'Principle1.Guideline1_1.1_1_1',
         'Principle1.Guideline1_2.1_2_1',
         'Principle1.Guideline1_2.1_2_2',
