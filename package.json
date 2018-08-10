@@ -1,0 +1,15 @@
+{
+  "name": "a11y-test-tutroial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "pa11y": "pa11y http://localhost:3000/index.html --threshold 10"
+  },
+  "author": "Rannveig A. Skjerve",
+  "license": "ISC",
+  "devDependencies": {
+    "pa11y": "^5.0.4"
+  }
+}
