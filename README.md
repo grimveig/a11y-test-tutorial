@@ -3,7 +3,7 @@
 automated accessibility testing with [Pa11y](https://github.com/pa11y/) and [aXe](https://github.com/dequelabs/axe-core).
 </em>
 
-##Where to start?
+## Where to start?
 In the [instructions](instructions) folder you will find walk-throughs on setting up,
 runnig and customizing automated tests with pa11y and aXe(to-come)
 
