@@ -3,7 +3,7 @@ Requirements : Node 8
 
 ## Setting up
  ```
- npm install -save-dev pa11y
+ npm install pa11y
   ```
   add a script in package.json for the commandline tool:
  ```
@@ -23,7 +23,7 @@ Requirements : Node 8
 </ul>  
   
   
-### Configurations how-to
+## 2. Configurations how-to
 You can either add options directly to the script in package.json
  ```
    "scripts": {
@@ -42,10 +42,11 @@ By default it will look for a pa11y.json file in the current directory. You can 
 pa11y --config ./path/to/custom-config.json http://path/to/page 
 ```
 
-<em>For more config options see [configurations.md](configurations.md)
+<em>For more config options see [configurations.md](configurations.md)<br>
+See also [custom-config.json](../../examples/pa11y/custom-config.json) for an example of a custom configuration file</em> 
 
 
-## Troubleshooting
+## 3. Troubleshooting
 Error: net::ERR_CONNECTION_REFUSED
 >Is your server running?
 
