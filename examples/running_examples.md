@@ -1,5 +1,22 @@
-running basic pally: ````npm run pa11y````<br>
-running pa11y with custom configurations: ```npm run pa11y-custom```<br>
-running pa11y through javascript interface: ```npm run pa11y-js```<br>
-runnig a11y.js;
- npm install jsdom
+#Running the examples
+1. Start you sever if it's not already running: <br>
+``` npm run dev```
+Open a new terminal window
+
+##basic pa11y
+In terminal: <br>
+ ````npm run pa11y````
+## pa11y with custom configurations:
+ In terminal: <br>
+```npm run pa11y-custom```
+##pa11y through javascript interface: 
+In terminal: <br>
+```npm run pa11y-js```
+##Basic axe example
+1. Uncomment the script tags in [index.html](../../index.html)
+2. open your browser and go to http://localhost:3000/index.html
+3. Open dev tools, results of the test will be displayed in the console window
+
+## Axe-core with puppeteer example 
+In terminal: <br>
+```npm run puppeteer-axe```
