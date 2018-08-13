@@ -19,4 +19,4 @@ In terminal: <br>
 
 ## Axe-core with puppeteer example 
 In terminal: <br>
-```npm run puppeteer-axe```
+```npm run axe-puppeteer```
