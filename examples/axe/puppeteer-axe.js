@@ -1,5 +1,7 @@
 /**
 axe-core example with puppeteer
+based on the puppeteer example found on axe-cores github:
+https://github.com/dequelabs/axe-core/blob/develop/doc/examples/puppeteer/axe-puppeteer.js
 **/
 
 const puppeteer = require('puppeteer');
@@ -21,8 +23,17 @@ const main = async url => {
 		const handle = await page.evaluateHandle(`
 			// Inject axe source code
 			${axeCore.source}
+
+            // run rules related to wcag2a and wcag2aa only
+			const config_array = {
+                             runOnly: {
+                                      type: "tag",
+                                      values: ["wcag2a","wcag2aa"]
+                                       }
+                                }
+
 			// Run axe
-			axe.run()
+			axe.run(config_array)
 		`);
 
 		// Get the results from `axe.run()`.
@@ -45,7 +56,7 @@ const main = async url => {
 
 main("http://localhost:3000/index.html")
 	.then(results => {
-		console.log(results.violations.length);
+		console.log("number of violations for wcag2 level A & AA:", results.violations.length);
 	})
 	.catch(err => {
 		console.error('Error running axe-core:', err.message);
