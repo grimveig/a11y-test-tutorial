@@ -7,7 +7,8 @@
     "dev": "node index.js",
     "pa11y": "pa11y http://localhost:3000/index.html",
     "pa11y-custom": "pa11y --config ./examples/pa11y/custom-config.json http://localhost:3000/index.html ",
-    "pa11y-js": "node examples/pa11y/pa11y-javascript.js"
+    "pa11y-js": "node examples/pa11y/pa11y-javascript.js",
+    "puppeteer-axe": "node examples/axe/puppeteer-axe.js"
   },
   "author": "Rannveig A. Skjerve",
   "license": "ISC",
@@ -15,6 +16,9 @@
     "pa11y": "^5.0.4"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "axe-cli": "^3.0.0",
+    "axe-core": "^3.0.3",
+    "lodash": "^4.17.10",
+    "puppeteer": "^1.7.0"
   }
 }

@@ -32,7 +32,7 @@ pa11y(http://url/to/page, configarray).then((results) => {
 ```
 
 ## 3. Troubleshooting
-###Not a function errors
+###SyntaxError: Unexpected token function
 Some people run into this problem when using node version 10,
 change node version to 8 
 

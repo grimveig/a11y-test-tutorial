@@ -47,7 +47,12 @@ See also [custom-config.json](../../examples/pa11y/custom-config.json) for an ex
 
 
 ## 3. Troubleshooting
-Error: net::ERR_CONNECTION_REFUSED
+###SyntaxError: Unexpected token function
+Some people run into this problem when using node version 10,
+change node version to 8 
+
+
+###Error: net::ERR_CONNECTION_REFUSED
 >Is your server running?
 
 No? Start your server!
