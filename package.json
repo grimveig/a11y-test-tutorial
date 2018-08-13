@@ -9,7 +9,8 @@
     "pa11y-custom": "pa11y --config ./examples/pa11y/custom-config.json http://localhost:3000/index.html ",
     "pa11y-js": "node examples/pa11y/pa11y-javascript.js",
     "axe-puppeteer": "node examples/axe/puppeteer-axe.js",
-    "axe-command": "axe http://localhost:3000/index.html"
+    "axe-command": "axe http://localhost:3000/index.html",
+    "axe-cmd-opts": "axe http://localhost:3000/index.html --tags wcag2a,wcag2aa --exit"
   },
   "author": "Rannveig A. Skjerve",
   "license": "ISC",
