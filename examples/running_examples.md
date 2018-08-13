@@ -20,3 +20,11 @@ In terminal: <br>
 ## Axe-core with puppeteer example 
 In terminal: <br>
 ```npm run axe-puppeteer```
+
+## Basic axe-cli  
+In terminal: <br>
+```npm run axe-command```
+
+## Axe-cli  with options
+In terminal: <br>
+```npm run axe-cmd-opts```
