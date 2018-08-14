@@ -1,5 +1,7 @@
-# a11y testing with pa11y
-Requirements : Node 8
+# a11y testing with aXe commandline
+Requirements : Node 6<br>
+For more information see [axe-cli on github](https://github.com/dequelabs/axe-cli)
+
 
 ## Setting up
  ```

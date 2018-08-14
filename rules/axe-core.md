@@ -52,7 +52,7 @@ or run axe.getRules([tag1,tag2])
 ```
 
 ### ```wcag2aa```
-<em>If you have no violations on level AA you can still have violations on level AA, remember to run both!</em>
+<em>NB! If you have no violations on level AA you can still have violations on level A, remember to run both!</em>
 ``` 
 [ 'color-contrast',
   'meta-viewport',
