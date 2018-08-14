@@ -1,4 +1,4 @@
-#Axe core config
+#Axe core rules
 <em>This page contains a summary of tags and rule-ids uses by axe-core for descriptions see [documentation on gihtub](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md) </em>
 or run axe.getRules([tag1,tag2])
 ## tags

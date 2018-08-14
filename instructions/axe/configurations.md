@@ -70,13 +70,60 @@ Optional parameter: path to directory
 
 
 ##JS library 
+There are two ways to configure tests with axe-core 
+1. The axe.configure option
+2. With optional parameteres in the axe.run fuction 
 
-### Page scope
+This tutorial focuses on basic configurations in the axe.run function, for details about axe.configure and adnvanced options 
+for axe.run see axe-core's [API-documentation](https://www.deque.com/axe/documentation/#api-name-axeconfigure)
+
+###axe.run parameters
+
+The axe.run functions takes 3 optional paramaters
+```
+axe.run(context, options, callback)
+```
+
+```context ```: page scope of the test
+``` options```: A json object containing additional configurations
+
+###Page scope: 
+Page scope is defined in the context parameter
+Values:
+
+* A CSS-selector
+* A Node-list
+* A reference to the document 
+* An include/exclude object,a json object with node lists of elements to include and exclude from the test
+ 
+```
+{
+  include: ['body'],
+  exclude: ['#lost_cause']
+}
+``` 
+
+You can read more about the include/exclude object in axe-core's [API documentation](https://www.deque.com/axe/documentation/#user-content-include-exclude-object)
 
 ### Rule scope
+Rule scope configurations are added in the options object
 
-### Output
+``` 
+runOnly: {
+            type: "tag",
+            values: ["wcag2a","wcag2aa"]
+            }
+```
+Run only the rules with specified tag or id<br>
+type: ``` tag``` or ```rule```<br>
+values : see [rules/axe-core.md](../../rules/axe-core.md)
 
-### Sensitivity
+```
+  "rules": {
+    "color-contrast": { enabled: false },
+  }
+```
 
-### Severity levels
+Edit properties of rules with specified rule-id<br> In this example color-contrast is excluded from the test
+See [rules/axe-core.md](../../rules/axe-core.md) for all rule-ids
+
