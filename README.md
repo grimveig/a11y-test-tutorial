@@ -8,10 +8,9 @@ In the [instructions](instructions) folder you will find walk-throughs on settin
 runnig and customizing automated tests.
 
 ### Pa11y
-Instruction in [commandline.md](instructions/pa11y/command-line.md)
+Instructions in [commandline.md](instructions/pa11y/command-line.md)
 ### aXe 
-<em>comming soon</em>
-
+Instructions in [setting-up.md](instructions/axe/setting-up.md)
 
 
 ## Well, this was basic..
