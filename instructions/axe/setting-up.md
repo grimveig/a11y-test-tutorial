@@ -1,4 +1,4 @@
-# a11y testing with pa11y
+# a11y testing with aXe-core
 Requirements : Node 6 or higher<br>
 
 ## Setting up
